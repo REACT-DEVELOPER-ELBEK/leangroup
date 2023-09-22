@@ -1,0 +1,76 @@
+.products{
+    margin-top: 88px;
+    .container{
+        .products__wrapper{
+            .products__title{
+                color: #2C2D2E;
+                text-align: center;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px;
+                span{
+                    color: #EF7C00;
+                }
+            }
+            .products__btns{
+                margin-top: 32px;
+                display: flex;
+                justify-content: center;
+                gap: 24px;
+                button{
+                    border-radius: 61px;
+                    border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+                    color: var(--color-primary, #EF7C00);
+                    text-align: center;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Montserrat;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 13px;
+                    padding: 10px 20px;
+                    background: transparent;
+                    cursor: pointer;
+                    &:hover{
+                        color: #FFF;
+                        background: #EF7C00;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .products__cards{
+                display: flex;
+                margin-top: 48px;
+                justify-content: center;
+                justify-content: space-between;
+            }
+            .to__catalog{
+                display: flex;
+                justify-content: center;
+                button{
+                    color: var(--color-primary, #EF7C00);
+                    text-align: center;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Montserrat;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    padding: 10px 20px;
+                    border-radius: 4px;
+                    border: 1px solid #EF7C00;
+                    margin-top: 48px;
+                    background: transparent;
+                    cursor: pointer;
+                    &:hover{
+                        color: #FFF;
+                        background: #EF7C00;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

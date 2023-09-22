@@ -1,0 +1,94 @@
+.info{
+    margin-top: 80px;
+    background-image: url(../../assets/img/info.png);
+    background-size: cover;
+    .container{
+        .info__wrapper{
+            padding: 24px 0;
+            h2{
+                color: #2C2D2E;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px; 
+                span{
+                    color: #EF7C00;
+                    margin-left: 10px;
+                }
+            }
+            p{
+                color: #2C2D2E;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; 
+                max-width: 400px;
+                margin-top: 24px;
+            }
+            .info__form{
+                .info__registration{
+                    margin-top: 36px;
+                    display: flex;
+                    gap: 12px;
+                    .info__input{
+                        display: flex;
+                        input{
+                            outline: none;
+                            height: 40px;
+                            border-radius: 0px 4px 4px 0px;
+                            border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+                            background: var(--main-color-bg, #FFF);
+                            &::placeholder{
+                                color: var(--text-color-text-secondary, #919399);
+                                font-feature-settings: 'clig' off, 'liga' off;
+                                font-family: Montserrat;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 20px; 
+                                padding: 10px 12px;
+                            }
+                        }
+                    }
+                }
+                #info-area{
+                    width: 435px;
+                    margin-top: 12px;
+                    height: 80px;
+                    border-radius: 4px;
+                    border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+                    background: var(--main-color-bg, #FFF);
+                    &::placeholder{
+                        color: var(--text-color-text-secondary, #919399);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: Montserrat;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px; 
+                        padding: 12px;
+                    }
+                }
+            }
+            button{
+                color: var(--text-color-text-contrast, #FFF);
+                text-align: center;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; 
+                padding: 10px 20px;
+                border-radius: 4px;
+                background: #EF7C00;
+                margin-top: 12px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

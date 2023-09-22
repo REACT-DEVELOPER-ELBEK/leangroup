@@ -1,0 +1,68 @@
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+    .container{
+        .nav__wrapper{
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            position: relative;
+            .nav__links{
+                display: flex;
+                align-items: center;
+                a{
+                    padding: 0 16px;
+                    color: var(--color-text, #2C2D2E);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    cursor: pointer;
+                    line-height: 24px;
+                    border-left: 1px solid rgba(0, 16, 61, 0.12);
+                    &:first-child{
+                        border-left: none;
+                    }
+                    &:hover{
+                        color: var(--color-primary, #EF7C00);
+                        transition: 0.25s;
+                    }
+                }
+            }
+            button{
+                background: transparent;
+                border: none;
+            }
+            .nav__hover{
+                border-radius: 0px 0px 4px 4px;
+                border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+                background: var(--main-color-bg, #FFF);
+                position: absolute;
+                left: 200px;
+                margin-top: 72px;
+                display: none;
+
+                ul{
+                    li{
+                        list-style-type: none;
+                        padding: 8px;
+                        color: var(--color-text, #2C2D2E);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px; 
+                        &:hover{
+                            color: #EF7C00;
+                            transition: 0.25s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
